@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBoxBindingTextBlock", "TextBoxBindingTextBlock\TextBoxBindingTextBlock.csproj", "{564B71EF-67F1-4618-93BA-AB2B987C09A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataContextBinding", "DataContextBinding\DataContextBinding.csproj", "{C24674BC-26B6-4A36-B66E-CB7C1B09D80A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{564B71EF-67F1-4618-93BA-AB2B987C09A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{564B71EF-67F1-4618-93BA-AB2B987C09A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{564B71EF-67F1-4618-93BA-AB2B987C09A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{564B71EF-67F1-4618-93BA-AB2B987C09A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C24674BC-26B6-4A36-B66E-CB7C1B09D80A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24674BC-26B6-4A36-B66E-CB7C1B09D80A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C24674BC-26B6-4A36-B66E-CB7C1B09D80A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24674BC-26B6-4A36-B66E-CB7C1B09D80A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CAA5A1E8-FEF6-4866-9216-65FA46CC241D}
+	EndGlobalSection
+EndGlobal
