@@ -23,7 +23,7 @@
                 Click="btnChangeUser_Click">
                 Change user
             </Button>
-            <Button x:Name="btnDeleteUser" Width="150">Delete user</Button>
+            <Button x:Name="btnDeleteUser" Width="150" Click="btnDeleteUser_Click">Delete user</Button>
         </StackPanel>
         <ListBox
             x:Name="lbUsers"

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,7 +22,7 @@ namespace RespondToChanges
     public partial class MainWindow : Window
     {
 
-        private List<User> users = new List<User>();
+        private ObservableCollection<User> users = new ObservableCollection<User>();
         public MainWindow()
         {
             InitializeComponent();
@@ -46,6 +47,14 @@ namespace RespondToChanges
             } else if (lbUsers.SelectedItem == null)
             {
                 MessageBox.Show("Please selecte an Item for changing.");
+            }
+        }
+
+        private void btnDeleteUser_Click(object sender, RoutedEventArgs e)
+        {
+            if (lbUsers.SelectedItem !=null)
+            {
+                users.Remove(lbUsers.SelectedItem as User);
             }
         }
     }
