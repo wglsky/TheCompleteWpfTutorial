@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBindingWithCodeBehinde"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateSourceTriggerProperty", "UpdateSourceTriggerProperty\UpdateSourceTriggerProperty.csproj", "{7AAE0E5D-6B09-490E-B8D1-98FF420D1DDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RespondToChanges", "RespondToChanges\RespondToChanges.csproj", "{49E1C35B-5AF1-4FF3-80B5-F3A7D81E17DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7AAE0E5D-6B09-490E-B8D1-98FF420D1DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AAE0E5D-6B09-490E-B8D1-98FF420D1DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AAE0E5D-6B09-490E-B8D1-98FF420D1DDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49E1C35B-5AF1-4FF3-80B5-F3A7D81E17DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E1C35B-5AF1-4FF3-80B5-F3A7D81E17DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E1C35B-5AF1-4FF3-80B5-F3A7D81E17DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E1C35B-5AF1-4FF3-80B5-F3A7D81E17DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
